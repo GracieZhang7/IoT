@@ -1,0 +1,680 @@
+[ 2019-03-01T19:42:22+08:00 ] 127.0.0.1 /think/think/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2019-03-01T19:42:28+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 23 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( uid= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( uid= ) LIMIT 1  
+
+[ 2019-03-01T19:44:15+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+
+[ 2019-03-01T19:44:24+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+
+[ 2019-03-01T19:44:43+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+
+[ 2019-03-01T19:50:26+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T19:51:02+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T19:52:58+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 23 行.
+
+[ 2019-03-01T20:20:58+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2019-03-01T20:21:15+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0022s ]
+
+[ 2019-03-01T20:28:33+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: date D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-03-01T20:28:35+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2019-03-01T20:28:49+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+
+[ 2019-03-01T20:28:51+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2019-03-01T20:28:57+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: date D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+
+[ 2019-03-01T20:28:59+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2019-03-01T20:32:12+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: date D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 77 行.
+
+[ 2019-03-01T20:32:49+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: z D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+
+[ 2019-03-01T20:32:51+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2019-03-01T20:33:03+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: z D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-03-01T20:33:05+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2019-03-01T20:33:26+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `update` SET `getoff`='1' WHERE ( userid=1 ) [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: ud D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 81 行.
+
+[ 2019-03-01T20:34:24+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `update` SET `getoff`='1' WHERE ( userid=1 ) [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-03-01T20:34:26+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2019-03-01T20:35:04+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `update` SET `getoff`='1' WHERE ( userid=1 ) [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: bus D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 82 行.
+
+[ 2019-03-01T20:35:36+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/deluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( name="1" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `update` SET `getoff`='1' WHERE ( userid=1 ) [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2019-03-01T20:35:38+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2019-03-01T20:39:04+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 27 行.
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `driver` WHERE ( userid=2 ) LIMIT 1  
+ERR: 1054:Unknown column 'userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `driver` WHERE ( userid=2 ) LIMIT 1  
+
+[ 2019-03-01T20:40:50+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 27 行.
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+
+[ 2019-03-01T20:40:52+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2019-03-01T20:42:33+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 27 行.
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bus_location` WHERE ( location= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bus_location` WHERE ( location= ) LIMIT 1  
+
+[ 2019-03-01T20:43:13+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: buslocation D:\wamp64\www\think\think\Application\Home\Controller\IndexController.class.php 第 27 行.
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T20:43:55+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="Glenwood Crossings" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T20:44:15+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="Glenwood Crossings" ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `update` (`busid`,`time`,`getoff`,`userid`,`buslocation`) VALUES ('101','1551444255','0',NULL,'2')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `update` (`busid`,`time`,`getoff`,`userid`,`buslocation`) VALUES ('101','1551444255','0',NULL,'2')
+
+[ 2019-03-01T20:45:02+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="Glenwood Crossings" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T20:45:34+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="Glenwood Crossings" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-01T20:46:14+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `update` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bus` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `driver` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bus_location` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `update` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus` WHERE ( busid=101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `update` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `driver` WHERE ( driverid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bus_location` WHERE ( location="Glenwood Crossings" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `update` (`busid`,`time`,`getoff`,`userid`,`buslocation`) VALUES ('101','1551444374','0','1','2') [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2019-03-01T20:46:16+08:00 ] 127.0.0.1 /think/think/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
